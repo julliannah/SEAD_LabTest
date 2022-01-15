@@ -19,7 +19,7 @@ const MainPage = () => {
 
     const paginator = Pagination ({
         page: 1,
-        sizePerPage: 10,
+        sizePerPage: 5,
         lastPageText: '>>',
         firstPageText: '<<',
         nextPageText: '>',
