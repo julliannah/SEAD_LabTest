@@ -1,0 +1,35 @@
+.table, th, td {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    list-style: none;
+    outline: none;
+}
+.pagination > .active > a {
+    padding: 5px 10px;
+    margin: 0 2px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #81c2ff;
+    border-radius: 5px;
+    outline: none;
+}
+.pagination > .disabled {
+    padding: 5px 10px;
+    margin: 0 2px;
+    font-size: 20px;
+    color: rgb(177, 177, 177);
+}
